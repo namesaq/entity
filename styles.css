@@ -10,6 +10,9 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
 }
 
 header h1 {
@@ -31,9 +34,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-main {
-    padding: 2rem;
-}
 
 section {
     margin-bottom: 2rem;
@@ -47,7 +47,14 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+    display: flex;
+    justify-content: center;
 }
+
+.container {
+    width: 80%;
+}
+
 @font-face {
     font-family: 'MyCustomFont';
     src: url('fonts/MyCustomFont.woff2') format('woff2'),
@@ -59,4 +66,11 @@ footer {
   body {
     font-family: 'MyCustomFont', sans-serif;
   }
-  
+main {
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper{
+    display:flex;
+    justify-content:start;
+}
