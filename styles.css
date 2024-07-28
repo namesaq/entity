@@ -1,3 +1,5 @@
+html {background-color: whitesmoke;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,34 +8,31 @@ body {
 }
 
 header {
-    background: #333;
+    background: whitesmoke;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 header h1 {
     margin: 0;
+    color:black;
+
 }
 
-nav ul {
-    list-style: none;
+header h2 {
+    font-size: 24px;
+    margin: 0px 0 0 0;
+    color: #666;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
     padding: 0;
+    line-height: 0.4;
 }
-
-nav ul li {
-    display: inline;
-    margin: 0 0.5rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 
 section {
     margin-bottom: 2rem;
@@ -49,6 +48,7 @@ footer {
     bottom: 0;
     display: flex;
     justify-content: center;
+
 }
 
 .container {
@@ -71,6 +71,82 @@ main {
     justify-content: center;
 }
 .header-wrapper{
+/* не плачь малыш😘😘😘😘 */
+}
+.header-footing{
     display:flex;
-    justify-content:start;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+ li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: #d9d6ce;
+  }
+  main {
+    line-height: 2.9;
+
+    
+  }
+  hr{
+    margin: 0;
+    width: 80%;
+ border: solid 1px #cecec5;
+ transform: scaleY(0.5);
+
+  }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
